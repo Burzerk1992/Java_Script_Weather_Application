@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <title>Weather Application</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container main-content">
+            <div class="col-sm-5 left-col">
+            </div>
+            <div class="col-sm-7 right-col">
+                <div class="col">
+                    <div class="col-sm">
+                        <h1>Weather App</h1>
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" id="locationInput" placeholder="Enter a city">
+                    </div>
+                    <div class="col-sm">
+                        <button id="searchButton">Search</button>
+                    </div>
+                    <div c;ass="col=sm">
+                        <p id="error-message" class="error-message">test</p>
+                    </div>
+                    <div class="col-sm weather-info">
+                        <h2 id="location"></h2>
+                        <p id="temprature"></p>
+                        <p id="description"></p>
+                        <p id="high-temp"></p>
+                        <p id="low-temp"></p>
+                        <button id="resetButton">View Another Location</button>
+                    </div>
+                    <div class="col-sm search-history search-history-box" id="search-history-box">
+                        <p id="search-history-header">Last 4 Viewed Locations</p>
+                        <p id="location-one"></p>
+                        <p id="location-two"></p>
+                        <p id="location-three"></p>
+                        <p id="location-four"></p>
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="resources/scripts.js"></script>
+</html>

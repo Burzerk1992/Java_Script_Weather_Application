@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-seif;
+    background-color: #5d285f;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    margin-top: 105px;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.left-col {
+    max-width: auto;
+    height: 350px;
+    background-color: #b3ccff;
+    box-sizing: border-box;
+    border-radius: 10px 0 0 10px;
+    background-image: url('/Users/kschilders/Desktop/programming_stuff/weather_application/resources/images/left_side_image.jpg');
+    background-repeat: no-repeat;
+}
+
+.right-col {
+    height: 350px;
+    border-radius: 0 10px 10px 0;
+    background-color: #a78cdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-message {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5d285f;
+    display: none;
+}
+
+.search-history-box {
+    background-color: #f9ca5a;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+#resetButton {
+    display: none;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #22201a;
+}
+
+h2 {
+    color: #5d285f;
+    font-weight: bold;
+}
+
+p {
+    color: #22201a;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #dc6952;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#search-history-header {
+    display: none;
+    font-weight: bold;
+}
